@@ -16,15 +16,7 @@
 
         <a style="color: var(--text-color1); text-decoration: underline;" href="./"><p>Home</p></a>
     </div>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-75CG632LGG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-75CG632LGG');
-</script>
     <script src="./Assests/JS/options.js"></script>
 </body>
 </html>

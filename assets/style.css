@@ -1155,3 +1155,11 @@ a:hover{color:#C2FF8B!important}
 @media(max-width:760px){
  .hero:before{width:120px;height:120px;right:-24px;top:12%}
 }
+
+/* V3 game page interaction + Popular Games */
+.related #relatedGrid{grid-template-columns:repeat(12,minmax(0,1fr));}
+.related #relatedGrid .game-card{display:block!important}
+.related-error{grid-column:1/-1;color:var(--muted);padding:22px 0}
+@media(max-width:1180px){.related #relatedGrid{grid-template-columns:repeat(8,minmax(0,1fr));}}
+@media(max-width:820px){.related #relatedGrid{grid-template-columns:repeat(5,minmax(0,1fr));}}
+@media(max-width:560px){.related #relatedGrid{grid-template-columns:repeat(3,minmax(0,1fr));}}
